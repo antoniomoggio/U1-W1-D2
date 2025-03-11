@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>U1 W1 D2</title>
+    <style>
+
+
+     h1 {
+       text-align: center;
+        }
+      *{
+            box-sizing: border-box;
+        }
+        form{
+          margin-top: 16px;
+        }
+        main {
+            width: 400px;
+            margin-inline: auto;
+        }
+        label{
+            display: block;
+        }
+        fieldset input{
+            width: 100%;
+            margin-bottom: 8px;
+        }
+        fieldset{
+            border-style: dotted;
+            border-width: 2px;
+        }
+        #specialty-fieldset input {
+            width: auto;
+        }
+
+        #specialty-fieldset label {
+            display: inline;
+           </style>
+        }
+  </head>
+</main>
+
+  <body>
+    <main>
+      <h1>FORM</h1>
+    <form onsubmit="alert('form invitato')>
+        <fieldset>
+          <legend>Anagrafica</legend>
+          <label form="name-input"> Nome </label>
+          <input type="text" id="name-input" placeholder="=inserisci il tuo nome" required>
+
+          <label for="Nome"> Cognome</label>
+          <input type="text " id= "surname"-input" placeholder="=inserisci il tuo cognome"required>
+
+          <label for="age-input">Età</label>
+          <input type="number" id="age-input" placeholder="0"required>
+        </fieldset>
+        <fieldset>
+            <legend>Web</legend>
+          <label for="url"> URL</label>
+           <input type="number " id="url" placeholder="=https://..... " required>
+           <input form="check-input" style="display: inline;"> GitHub</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Regione</legend>
+
+          <label for="region-select"> Regione</label>
+          <select id="region-select">
+            <optgroup value="piemonte">Piemonte</optgroup>
+            <optgroup value=" lombardia"> Lombardia</optgroup>
+            <optgroup value="veneto"> Veneto </optgroup>
+          </select>
+        </fieldset>
+
+      <div style="text-align: center;">
+        <input type="button" value="button"/>
+        <button type="submit"> Invio </button>
+        <button type="reset"> Reset </button>
+      </div>
+    
+
+    </form>
+</main>
+  </body>
+</html>
